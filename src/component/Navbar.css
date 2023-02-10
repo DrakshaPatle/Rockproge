@@ -1,0 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Spray+Paint&display=swap");
+
+  /* box-shadow:  2px 2px 20px 1px rgba(0, 0, 0, 0.199); */
+.illustration {
+  width: 400px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info p {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+/* About */
+
+.table-container {
+  min-height: 50vh;
+  height: auto;
+}
+
+/* Contact  */
+
+.form-container {
+  margin: 0px auto;
+  max-width: 900px;
+}
+
+.form {
+  padding: 10px;
+  background-image: linear-gradient(
+    190deg,
+    
+rgb(140, 233, 154),
+    rgba(90, 132, 201, 0.1)
+  );
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  z-index: 2;
+  margin-top: 40px;
+  color: 
+#fff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 30px 0px 10px 0px;
+  width: 100%;
+  background-color: 
+rgb(88, 88, 88);
+}
+
+.sm-icon {
+  font-size: 20px;
+  margin: 20px 10px;
+  color: 
+#fff;
+}
+
+/* Other classes */
+
+.btn-success:hover {
+  background-color: 
+#2f9e44 !important;
+}
+
+a.active {
+  border: 0px;
+  background-color: 
+#40c057 !important;
+}
+
+.hide {
+  display: none !important;
+}
